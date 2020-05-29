@@ -70,7 +70,7 @@
 
 .on {
   position: absolute;
-  z-index: 10000000;
+  z-index: 10;
   border-radius: 5px;
   
   background-color: none;
@@ -93,6 +93,7 @@
   border-top: none;
   background-color: #3D82C2;
   color: white;
+  z-index: 11;
 
 } 
 
@@ -130,7 +131,7 @@
 .bottom {
   border: 5px solid rgb(200, 200, 200);
   border-bottom: none;
-  left: 90%;
+  left: 85%;
   top: 10%;
 }
 
@@ -174,8 +175,8 @@
 }
 
 .bottom:hover {
-  width: 8%;
-  height: 40%;
+  width: 10%;
+  height: 35%;
 }
 
 .left:hover {
@@ -355,7 +356,6 @@ input:checked + .slider:before {
 .case_studies {
   display: flex;
   flex-direction: column;
-  
 }
 
 .container {
