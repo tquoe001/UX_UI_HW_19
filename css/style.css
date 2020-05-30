@@ -77,13 +77,14 @@
   font-size: 0;
   border: 5px solid rgb(200, 200, 200);
   border-top: none;
+  transition: box-shadow .5s;
   transition: font-size, .5s;
   transition: background-color, 1s;
   transition: border-top, .5s;
   transition: border, .5s;
   transition: color, .5s;
   transition: width, .5s;
-
+ 
 }
 
 
@@ -94,6 +95,7 @@
   background-color: #3D82C2;
   color: white;
   z-index: 100;
+  box-shadow: 5px 5px rgb(50, 50, 50, 10%);
 
 } 
 
