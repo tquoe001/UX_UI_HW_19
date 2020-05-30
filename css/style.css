@@ -151,7 +151,7 @@
 }
 
 .read_more:hover {
-  width: 20%;
+  width: 30%;
 }
 
 .img_annotation {
@@ -167,7 +167,7 @@
 }
 
 .middle:hover {
-  height: 70%;
+  height: 80%;
   width: 50%;
 }
 .top:hover {
@@ -202,10 +202,15 @@ a {
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  cursor: pointer;
-  color: blue;
-  box-shadow: 0 0 5px #2196f3;
-  border-radius: 5px;
+  color: #1956d8;
+  
+}
+
+a:active {
+
+  opacity: 50%;
+
+
 }
 
 li {
@@ -222,7 +227,16 @@ li {
   padding-bottom: 10px;
   padding-right: 30px;
   width: 75px;
+  transition: opacity .4s;
+
 }
+
+#logo:hover {
+  opacity: 75% ;
+
+}
+
+
 
 nav {
   color: black;
@@ -343,6 +357,7 @@ input:focus + .slider {
 
 input:hover + .slider {
   box-shadow: 0 0 5px #2196f3;
+  opacity: 75%;
 }
 
 input:checked + .slider:before {
@@ -356,6 +371,7 @@ input:checked + .slider:before {
 .case_studies {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .container {
@@ -364,13 +380,16 @@ input:checked + .slider:before {
   padding: 150px;
 }
 
-.display_left {
-  width: 700px;
+
+.img_display {
+  width: 100%;
+  transition: opacity .4s;
 }
 
-.display_right {
-  width: 700px;
+.img_display:hover {
+  opacity: 75%;
 }
+
 
 .header {
   font-weight: bold;
@@ -384,11 +403,19 @@ input:checked + .slider:before {
 }
 
 .link:hover {
+  text-decoration: none;
   cursor: pointer;
-  color: blue;
-  box-shadow: 0 0 5px #2196f3;
-  border-radius: 5px;
+  color: #1956d8;
+  
 }
+
+.link:active {
+
+  opacity: 50%;
+
+}
+
+
 
 .summary {
   display: flex;
@@ -425,6 +452,11 @@ footer {
 .linkedin {
   padding-left: 40px;
   padding-right: 40px;
+  transition: opacity .4s;
+}
+
+.linkedin:hover {
+  opacity: 75%;
 }
 
 .container_footer {
