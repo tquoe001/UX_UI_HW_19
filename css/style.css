@@ -488,22 +488,31 @@ footer {
     align-items: center;
     
   }
+
+  li {
+    font-size: 30;
+  }
 }
 
 @media only screen and (max-device-width: 370px) {
   #logo {
     display: none;
   }
-  nav {
-    display: flex;
-    justify-content: center;
+  .layer_4_2 {
+    display: none !important;
   }
+
+  nav {
+    
+    justify-content: center;
+    
+  }
+
+  
   .hero {
     margin: 0 auto;
   }
-  li {
-    font-size: 40;
-  }
+  
 
   ul {
     float: none;
@@ -511,6 +520,9 @@ footer {
 
   p {
     font-size: 20px;
+  }
+  li {
+    font-size: 40;
   }
 
   .slider {

@@ -100,7 +100,7 @@
 
 }
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-device-width: 370px) {
 
     .about {
         justify-content: center;
